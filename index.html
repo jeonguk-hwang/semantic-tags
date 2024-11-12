@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A blog about web development and design trends. Explore articles on semantic HTML, CSS techniques, and more."
+    />
+    <meta
+      name="keywords"
+      content="web development, design trends, semantic HTML, CSS Grid, Flexbox"
+    />
+    <meta name="author" content="Santa" />
+    <title>My Blog | Web Development and Design Trends</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <script src="assets/scripts/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+      <h1>My Blog</h1>
+      <nav role="navigation" aria-label="Main navigation">
+        <ul>
+          <li>
+            <a href="#home" aria-label="Go to Home Section"
+              >Web Development Blog Home</a
+            >
+          </li>
+          <li>
+            <a href="#articles" aria-label="Go to Articles Section"
+              >Latest Web Design Articles</a
+            >
+          </li>
+          <li>
+            <a href="#about" aria-label="Go to About Section"
+              >About the Web Developer</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="home" role="region" aria-labelledby="home-heading">
+        <h2 id="home-heading">Welcome to My Blog</h2>
+        <p>
+          This is a blog about <mark>web development</mark> and
+          <mark>design trends</mark>.
+        </p>
+      </section>
+
+      <section id="articles" role="region" aria-labelledby="articles-heading">
+        <h2 id="articles-heading">Recent Articles</h2>
+
+        <article role="article" aria-labelledby="article-1-heading">
+          <header>
+            <h3 id="article-1-heading">How to Use Semantic HTML</h3>
+            <time
+              datetime="2024-11-12"
+              aria-label="Published on November 12, 2024"
+              >November 12, 2024</time
+            >
+          </header>
+          <p><mark>Semantic HTML</mark> improves accessibility and SEO...</p>
+          <footer>
+            <p>Author: Santa</p>
+          </footer>
+        </article>
+
+        <article role="article" aria-labelledby="article-2-heading">
+          <header>
+            <h3 id="article-2-heading">CSS Grid vs. Flexbox</h3>
+            <time
+              datetime="2024-11-10"
+              aria-label="Published on November 10, 2024"
+              >November 10, 2024</time
+            >
+          </header>
+          <p>
+            Both CSS Grid and <mark>Flexbox</mark> are powerful layout tools...
+          </p>
+          <footer>
+            <p>Author: Santa</p>
+          </footer>
+        </article>
+      </section>
+
+      <aside role="complementary" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Me</h2>
+        <p>
+          I am a <mark>web developer</mark> with a passion for creating
+          user-friendly designs.
+        </p>
+      </aside>
+
+      <section role="region" aria-labelledby="gallery-heading">
+        <h2 id="gallery-heading">Image Gallery</h2>
+        <figure>
+          <picture>
+            <source srcset="assets/images/web-development-trends.webp" type="image/webp" />
+            <source srcset="assets/images/web-development-trends.jpg" type="image/jpeg" />
+            <img
+              src="assets/images/web-development-trends.jpg"
+              alt="A representation of web development trends"
+            />
+          </picture>
+          <figcaption>Figure 1: A <mark>representation of web development trends</mark>.</figcaption>
+        </figure>
+      </section>
+
+      <section role="region" aria-labelledby="faq-heading">
+        <h2 id="faq-heading">FAQ</h2>
+        <details>
+          <summary>What is semantic HTML?</summary>
+          <p>
+            <mark>Semantic HTML</mark> uses tags that convey the meaning of the
+            content.
+          </p>
+        </details>
+        <details>
+          <summary>Why use semantic HTML?</summary>
+          <p>
+            It improves <mark>accessibility</mark>, SEO, and code
+            maintainability.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <p>Copyright © 2024 My Blog. All rights reserved.</p>
+      <p>Contact: <a href="mailto:jeonguk.hwang@hatchling.kr">jeonguk.hwang@hatchling.kr</a></p>
+    </footer>
+  </body>
+</html>
