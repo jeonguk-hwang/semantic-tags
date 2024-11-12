@@ -1,0 +1,5 @@
+# Node.js 패키지 폴더
+node_modules/      
+
+# 번들된 결과물 (배포 폴더)
+/dist/                 

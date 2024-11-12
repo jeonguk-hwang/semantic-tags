@@ -1,3 +1,5 @@
+import "./styles.css";
+
 // JSON-LD Schema for structured data
 const structuredData = {
   "@context": "https://schema.org",
