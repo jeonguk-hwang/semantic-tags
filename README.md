@@ -31,7 +31,7 @@ yarn build
 
 # 기술 스택
 - HTML: Semantic HTML5 태그 사용
-- CSS: Flexbox, CSS Grid, 반응형 디자인
+- CSS: Flexbox, CSS Grid, 반응형 디자인, Animation
 - JavaScript: JSON-LD 구조화된 데이터 삽입
 - Webpack: 번들링 및 자원 관리
 - Yarn: 패키지 의존성 관리
@@ -52,6 +52,12 @@ yarn build
 - 이미지 갤러리: 반응형 이미지 렌더링
 - FAQ: 웹 개발 관련 자주 묻는 질문
 - 소개: 개발자 정보 제공
+
+# TODO:
+- BEM
+- Sass | Less
+- Bootstrap | PostCSS | Tailwind CSS | Material UI | Styled-Components | Ant Design
+- Webpack | Rollup | Parcel | Vite
 
 # 문의
 프로젝트 관련 문의는 아래 이메일로 연락 부탁드립니다.
