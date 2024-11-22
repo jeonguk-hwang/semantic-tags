@@ -36,6 +36,7 @@ module.exports = {
     static: "./dist", // 개발 서버에서 제공할 폴더
     port: 8080, // 개발 서버 포트
     open: true, // 브라우저 자동 열기
+    hot: true, // HMR 활성화
   },
   mode: "development", // 기본 모드: 개발
 };

@@ -26,3 +26,7 @@ const script = document.createElement("script");
 script.type = "application/ld+json";
 script.textContent = JSON.stringify(structuredData);
 document.head.appendChild(script);
+
+if (module.hot) {
+  module.hot.accept(); // HMR 활성화
+}
